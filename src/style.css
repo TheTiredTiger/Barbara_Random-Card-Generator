@@ -1,0 +1,9 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+p {
+  font-size: 2vw;
+}
+
+button {
+  border-radius: 3px;
+  border: 1px grey solid;
+}
