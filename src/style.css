@@ -1,9 +1,50 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
-p {
-  font-size: 2vw;
+body {
+  background-color: #0e7e12;
+}
+
+.card {
+  box-sizing: border-box;
+  position: relative;
+  display: table;
+  margin: auto;
+  background-color: white;
+  width: 30em;
+  height: 40em;
+  text-align: center;
+  padding-top: 12em;
+  margin-top: 2em;
+  border-radius: 20px;
+  border: 1px lightgray solid;
+  box-shadow: 3px 3px 10px 3px rgb(80, 80, 80);
+}
+
+.topIcon {
+  position: absolute;
+  font-size: 8em;
+  left: 20px;
+  top: 15px;
+}
+
+.bottomIcon {
+  position: absolute;
+  font-size: 8em;
+  right: 20px;
+  bottom: 15px;
+}
+
+.number {
+  font-size: 10em;
+}
+
+.redSuit {
+  color: red;
 }
 
 button {
-  border-radius: 3px;
-  border: 1px grey solid;
+  margin: auto;
+  display: table;
+  margin-top: 1em;
+  font-size: 2em;
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
 }
