@@ -45,6 +45,5 @@ function generateCard() {
   document.querySelector(".number").innerHTML = number;
 }
 
-window.onload = generateCard();
 document.querySelector("button").addEventListener("click", generateCard);
 setInterval(generateCard, 10000);
